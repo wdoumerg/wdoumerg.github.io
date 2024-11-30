@@ -7,9 +7,9 @@ http://www.templatemo.com/tm-488-classic
 -----------------------------*/
 
 body {
-	color: #8c8c8c;
+	color: #4c4c4c;
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-	font-size: 18px;
+	font-size: 16px;
 	font-weight: 300;
 	overflow-x: hidden;
 }
@@ -52,9 +52,9 @@ h2 { font-size: 2.2rem; }
 }
 
 .tm-site-name {
-	color: #cc9900;
+	color: #FF5733  ;
 	display: block;
-	font-size: 2.6rem;
+	font-size: 2.1rem;
 	font-weight: 400;
 }
 
@@ -70,11 +70,11 @@ h2 { font-size: 2.2rem; }
 .nav-link:hover,
 .nav-link:focus {
 	color: white;
-	background-color: #cc9900;
+	background-color: LightSalmon   ;
 
 }
 
-.tm-gold-text { color: #cc9900; }
+.tm-gold-text { color: #6495ED  ; }
 
 .tm-section {
 	padding-top: 80px;
@@ -86,7 +86,7 @@ h2 { font-size: 2.2rem; }
 	background-size: auto;
 	background-position: center;
 	background-repeat: no-repeat;
-	height: 500px;
+	height: 200px;
 }
 
 .tm-about-img-container { background-image: url('../img/tm-about-img.jpg');	}
@@ -402,30 +402,4 @@ p { line-height: 1.9; }
 	.tm-btn { padding: 10px 30px; }
 }
 
-@media(max-width: 510px) {
-	.media { max-width: 240px; }
-	.media-left {
-		display: block;
-		margin-bottom: 20px;
-	}
-		
-	.tm-section {
-		padding-top: 10%;
-		padding-bottom: 10%;
-	}
 
-	.tm-subtitle { margin-bottom: 20px; }
-	.tm-margin-b-40 { margin-bottom: 15px; }
-	.tm-content-box { margin-bottom: 40px; }
-	.tm-margin-t-mid { margin-top: 30px; }
-	.tm-footer-content-box { margin-bottom: 40px; }
-	.tm-footer-content-box-title { margin-bottom: 15px; }
-	#google-map { margin-top: 25px; }
-	.tm-map-section { margin-top: 50px; }
-
-	.tm-contact-related-posts-container {
-		max-width: 240px;
-		margin-left: auto;
-		margin-right: auto;
-	}
-}
